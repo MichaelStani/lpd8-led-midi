@@ -1,0 +1,6 @@
+node_modules/
+# Never commit Akai's firmware or builds derived from it
+*.hex
+*.bin
+*.asm
+*.exe

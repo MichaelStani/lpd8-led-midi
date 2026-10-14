@@ -1,0 +1,15 @@
+{
+  "name": "lpd8-led-midi-patcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Firmware patcher: control the Akai LPD8 mk2 pad LEDs over USB MIDI",
+  "scripts": {
+    "patch": "node patch.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "capstone-wasm": "^1.0.3",
+    "keystone-wasm": "^1.0.4"
+  }
+}
